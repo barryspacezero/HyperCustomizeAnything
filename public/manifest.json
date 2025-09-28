@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Hyper Customize Anything",
+  "version": "1.0.0",
+  "description": "A Chrome extension to customize any webpage element without using CSS.",
+  "action": {
+    "default_title": "Hyper Customize Anything",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "snap.png",
+    "32": "snap.png",
+    "48": "snap.png",
+    "128": "snap.png"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ]
+}
